@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use The Cohesive Tetrad, please cite this canonical record."
+title: "The Cohesive Tetrad: Jalan Menuju Kebenaran"
+version: "1.0"
+doi: "10.17605/OSF.IO/D5S7V"
+date-released: "2025-11-01"
+authors:
+  - family-names: "Mutaqin"
+    given-names: "Ade Zaenal"
+    orcid: "https://orcid.org/0009-0001-4114-3679"
+license: "CC0-1.0"
+url: "https://doi.org/10.17605/OSF.IO/D5S7V"
