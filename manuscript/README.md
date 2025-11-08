@@ -1,6 +1,7 @@
 # Manuscript
 
-This folder contains the canonical manuscript and directly aligned derivatives of "The Cohesive Tetrad".
+This folder contains the canonical manuscript and directly aligned derivatives of "The Cohesive Tetrad: Jalan Menuju Kebenaran".
 
-- `TCT_v1.0_canonical.pdf` - canonical PDF manuscript.
-- `TCT_v1.0_canonical.md` - structured Markdown edition based on the canonical PDF.
+- `TCT_v1.0_canonical.pdf` – canonical PDF manuscript.
+- `TCT_v1.0_canonical.docx` – canonical Word source (authorial final).
+- `TCT_v1.0_canonical.md` – canonical Markdown edition exported from the DOCX using Pandoc, without any content modifications.
