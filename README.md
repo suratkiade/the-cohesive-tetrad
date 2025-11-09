@@ -16,8 +16,14 @@ Canonical public repository for the epistemic and ethical framework "The Cohesiv
 - License: CC0 1.0 Universal (Public Domain Dedication)
 - Contact: suratkiade@gmail.com
 
-This repository stores the canonical manuscript and aligned artefacts of "The Cohesive Tetrad".  
-All derivatives must reference this canonical source and DOI.
+This repository and the tagged releases constitute the **canonical public record**
+for *The Cohesive Tetrad: Jalan Menuju Kebenaran*.  
+All derivatives, citations, and adaptations MUST reference this repository and
+the DOI **10.17605/OSF.IO/D5S7V** as their canonical source.
+
+Canonical release:
+
+- https://github.com/suratkiade/the-cohesive-tetrad/releases/tag/v1.0.0
 
 ## Planned structure
 
