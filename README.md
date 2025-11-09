@@ -32,8 +32,8 @@ Canonical release:
 - `supplementary/` - glossary, FAQ, audit tools, methodological notes.
 - `meta/` - records and links for OSF, Zenodo, Figshare, Humanities Commons, Wikidata, and related entries.
 - `manuscript/TCT_v1.0_canonical.pdf` – canonical PDF manuscript.
-- `manuscript/TCT_v1.0_canonical.docx` – canonical Word source (*tidak disimpan sebagai berkas publik**
-di repository ini).
+- `manuscript/TCT_v1.0_canonical.docx` – canonical Word source (authorial final). Berkas sumber penulisan dalam format Word (DOCX) **tidak disimpan sebagai berkas publik**
+di repository ini.
 - `manuscript/TCT_v1.0_canonical.md` – canonical Markdown edition (Pandoc export, isi identik).
 
 ## Citation
