@@ -1,5 +1,3 @@
-<img src="media/image1.png" style="width:8.26458in;height:11.69097in" />
-
 The Cohesive Tetrad
 
 Jalan Menuju Kebenaran
@@ -7545,3 +7543,4 @@ Lihat juga: Pelaporan Jujur, Akuntabilitas.
 [^41]: **Aletheia (ἀλήθεια)**  
     • Buku: Martin Heidegger, *Being and Time* (ed. Stambaugh, SUNY Press, 2010).  
     • Tesis: John Martin Kraus, *The Role of “Aletheia” in Heidegger’s Early Thought* (MA, LSU, 2009).
+
