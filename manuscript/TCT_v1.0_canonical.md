@@ -1,4 +1,4 @@
-The Cohesive Tetrad
+## **The Cohesive Tetrad**
 
 Jalan Menuju Kebenaran
 
@@ -7,13 +7,9 @@ Akhir dari Perdebatan adalah Awal dari Amal
 © Ade Zaenal Mutaqin
 
 Naskah The Cohesive Tetrad pada akhirnya akan gagal diuji secara ilmiah;
-
-sebab, ketika ia berhasil lolos dari pengujian ilmiah,
-
-maka naskah inilah yang gagal.
+sebab, ketika ia berhasil lolos dari pengujian ilmiah, maka naskah inilah yang gagal.
 
 Diterbitkan di Bogor, Indonesia, 2025
-
 ## **HALAMAN HAK CIPTA**
 
 ------------------------------------------------------------------------
@@ -7543,4 +7539,5 @@ Lihat juga: Pelaporan Jujur, Akuntabilitas.
 [^41]: **Aletheia (ἀλήθεια)**  
     • Buku: Martin Heidegger, *Being and Time* (ed. Stambaugh, SUNY Press, 2010).  
     • Tesis: John Martin Kraus, *The Role of “Aletheia” in Heidegger’s Early Thought* (MA, LSU, 2009).
+
 
