@@ -14,8 +14,10 @@ Repositori publik kanonis untuk *The Cohesive Tetrad*, suatu kerangka epistemik 
 
 - **Title (ID)**: The Cohesive Tetrad: Jalan Menuju Kebenaran  
 - **Title (EN)**: The Cohesive Tetrad: Sabda, Logic, Qualia, Mystica  
-- **Tagline**: Akhir dari Perdebatan adalah Awal dari Amal  
+- **Tagline (ID)**: Akhir dari Perdebatan adalah Awal dari Amal  
+- **Tagline (EN)**: The End of Debate is the Beginning of Deeds  
 - **Author**: Ade Zaenal Mutaqin  
+- **Academic role**: Independent researcher 
 - **Canonical academic affiliation (for citation)**: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia  
 - **Academic background**: Alumnus of the Faculty of Economics and Business, Pakuan University, Bogor, Indonesia  
 - **Institutional ecosystem**: Highland Indonesia Group, Strategic Branding and Research  
@@ -153,7 +155,8 @@ For academic work, please cite the book, the relevant canonical semantic definit
 
 - **Judul (ID)**: The Cohesive Tetrad: Jalan Menuju Kebenaran  
 - **Judul (EN)**: The Cohesive Tetrad: Sabda, Logic, Qualia, Mystica  
-- **Tagline**: Akhir dari Perdebatan adalah Awal dari Amal  
+- **Tagline (ID)**: Akhir dari Perdebatan adalah Awal dari Amal  
+- **Tagline (EN)**: The End of Debate is the Beginning of Deeds 
 - **Penulis**: Ade Zaenal Mutaqin  
 - **Afiliasi akademik kanonis (untuk sitasi)**: Fakultas Ekonomi dan Bisnis, Universitas Pakuan, Bogor, Indonesia  
 - **Latar belakang akademik**: Alumni Fakultas Ekonomi dan Bisnis, Universitas Pakuan, Bogor, Indonesia  
