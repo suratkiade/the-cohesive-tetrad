@@ -13,10 +13,11 @@ Repositori publik kanonis untuk *The Cohesive Tetrad*, suatu kerangka epistemik 
 ### 1. Canonical metadata
 
 - **Title (ID)**: The Cohesive Tetrad: Jalan Menuju Kebenaran  
-- **Title (EN)**:  The Cohesive Tetrad: Sabda, Logic, Qualia, Mystica  
+- **Title (EN)**: The Cohesive Tetrad: Sabda, Logic, Qualia, Mystica  
 - **Tagline**: Akhir dari Perdebatan adalah Awal dari Amal  
 - **Author**: Ade Zaenal Mutaqin  
-- **Affiliation**: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia  
+- **Canonical academic affiliation (for citation)**: Faculty of Economics and Business, Pakuan University, Bogor, Indonesia  
+- **Academic background**: Alumnus of the Faculty of Economics and Business, Pakuan University, Bogor, Indonesia  
 - **Institutional ecosystem**: Highland Indonesia Group, Strategic Branding and Research  
 - **ORCID**: https://orcid.org/0009-0001-4114-3679  
 - **Version**: 1.0  
@@ -35,10 +36,10 @@ This repository and its tagged releases constitute the canonical public record f
 
 ### 2. Semantic field of The Cohesive Tetrad
 
-*The Cohesive Tetrad* is an epistemic and ethical framework for truth governance. It takes seriously the fact that institutions, technologies, and communities speak in different idioms of “truth”, yet human beings remain responsible before something higher than power, appetite, or efficiency. The framework articulates four interdependent languages of truth:
+*The Cohesive Tetrad* is an epistemic and ethical framework for truth governance. It takes seriously the fact that institutions, technologies, and communities speak in different idioms of truth, while human beings remain responsible before something higher than power, appetite, or efficiency. The framework articulates four interdependent languages of truth:
 
 - **Sabda (Revelatory Word, the authoritative source of norm and telos)**  
-  Sabda refers to the class of normative utterances that possess authoritative weight. It is rooted in the primordial semantic field of śabda and sadda and includes divine speech, firmans, decrees, and norm-giving discourses that give direction, boundaries, and aims to human life. In the TCT framework, Sabda is treated as the highest authoritative source of norm and telos.
+  Sabda refers to the class of normative utterances that possess authoritative weight. It is rooted in the primordial semantic field of śabda and sadda and includes divine speech, firmans, decrees, and norm giving discourses that give direction, boundaries, and aims to human life. In the TCT framework, Sabda is treated as the highest authoritative source of norm and telos.
 
 - **Logic**  
   Logic is the disciplined order of reasoning that structures concepts, propositions, implications, and inferences so that judgments can be tested, corrected, and held accountable across time, disciplines, and traditions.
@@ -151,10 +152,11 @@ For academic work, please cite the book, the relevant canonical semantic definit
 ### 1. Metadata kanonis
 
 - **Judul (ID)**: The Cohesive Tetrad: Jalan Menuju Kebenaran  
-- **Judul (EN)**: The Cohesive Tetrad: Aletheia, Logos, Qualia, Mystica  
+- **Judul (EN)**: The Cohesive Tetrad: Sabda, Logic, Qualia, Mystica  
 - **Tagline**: Akhir dari Perdebatan adalah Awal dari Amal  
 - **Penulis**: Ade Zaenal Mutaqin  
-- **Afiliasi**: Fakultas Ekonomi dan Bisnis, Universitas Pakuan, Bogor, Indonesia  
+- **Afiliasi akademik kanonis (untuk sitasi)**: Fakultas Ekonomi dan Bisnis, Universitas Pakuan, Bogor, Indonesia  
+- **Latar belakang akademik**: Alumni Fakultas Ekonomi dan Bisnis, Universitas Pakuan, Bogor, Indonesia  
 - **Ekosistem institusional**: Highland Indonesia Group, Strategic Branding and Research  
 - **ORCID**: https://orcid.org/0009-0001-4114-3679  
 - **Versi**: 1.0  
@@ -169,7 +171,7 @@ Repositori ini beserta rilis yang diberi tag merupakan catatan publik kanonis un
 
 ### 2. Ranah semantik The Cohesive Tetrad
 
-*The Cohesive Tetrad* adalah kerangka epistemik dan etis untuk tata kelola kebenaran. Kerangka ini berangkat dari kenyataan bahwa lembaga, teknologi, dan komunitas berbicara dalam beragam idiom “kebenaran”, sementara manusia tetap bertanggung jawab di hadapan sesuatu yang lebih tinggi daripada kekuasaan, nafsu, atau efisiensi. TCT merumuskan empat bahasa kebenaran yang saling mengikat dan saling mengoreksi:
+*The Cohesive Tetrad* adalah kerangka epistemik dan etis untuk tata kelola kebenaran. Kerangka ini berangkat dari kenyataan bahwa lembaga, teknologi, dan komunitas berbicara dalam beragam idiom kebenaran, sementara manusia tetap bertanggung jawab di hadapan sesuatu yang lebih tinggi daripada kekuasaan, nafsu, atau efisiensi. TCT merumuskan empat bahasa kebenaran yang saling mengikat dan saling mengoreksi:
 
 - **Sabda (Revelatory Word, the authoritative source of norm and telos)**  
   Sabda adalah kategori ujaran normatif yang bersifat otoritatif, berakar pada medan makna purba istilah śabda dan sadda. Sabda mencakup firman, titah, kalam, serta rumusan normatif terinstitusikan yang memberi arah, batas, dan tujuan bagi kehidupan manusia. Dalam TCT, Sabda diperlakukan sebagai sumber normatif tertinggi yang menetapkan norma dan telos.
@@ -178,7 +180,7 @@ Repositori ini beserta rilis yang diberi tag merupakan catatan publik kanonis un
   Logika adalah tertib penalaran yang terdisiplinkan, yang menata konsep, proposisi, implikasi, dan inferensi sehingga keputusan dapat diuji, dikoreksi, dan dipertanggungjawabkan lintas waktu, disiplin, dan tradisi.
 
 - **Qualia**  
-  Qualia menunjuk pada dimensi fenomenal dan pengalaman hidup manusia, yakni bagaimana klaim kebenaran, kekuasaan, kebijakan, dan rancangan kelembagaan sungguh dirasakan oleh subjek, komunitas, dan ekosistem dalam kenyataan keseharian.
+  Qualia menunjuk pada dimensi fenomenal dan pengalaman hidup manusia, yaitu bagaimana klaim kebenaran, kekuasaan, kebijakan, dan rancangan kelembagaan sungguh dirasakan oleh subjek, komunitas, dan ekosistem dalam kenyataan keseharian.
 
 - **Mistika**  
   Mistika adalah dimensi intensional spiritual tentang perjalanan yang dipandu oleh niat sadar menuju puncak pengalaman langsung akan realitas tertinggi atau terdalam. Mistika menamai jalan disiplin batin di mana niat, hasrat, dan persepsi dimurnikan di hadapan realitas yang paling hakiki.
