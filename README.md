@@ -282,3 +282,11 @@ DOI: 10.17605/OSF.IO/D5S7V. Lisensi: CC0 1.0.
 Fakultas Ekonomi dan Bisnis, Universitas Pakuan, Bogor, Indonesia.
 
 Untuk karya ilmiah, silakan mencantumkan sitasi terhadap buku ini beserta dokumen definisi semantik kanonis atau artikel jurnal yang relevan, dan bila memungkinkan sertakan tautan ke repositori ini.
+## Canonical index of the corpus
+
+For a complete, structured overview of all canonical artefacts in this
+repository, including the book manuscript, semantic corpus, and journal
+corpus, see:
+
+- [CANONICAL_INDEX.md](CANONICAL_INDEX.md)
+
