@@ -1,12 +1,34 @@
 cff-version: 1.2.0
-message: "If you use The Cohesive Tetrad, please cite this canonical record."
+message: "If you use this work, please cite it as follows."
 title: "The Cohesive Tetrad: Jalan Menuju Kebenaran"
+type: book
 version: "1.0"
 doi: "10.17605/OSF.IO/D5S7V"
 date-released: "2025-11-01"
+url: "https://github.com/suratkiade/the-cohesive-tetrad"
+abstract: >
+  The Cohesive Tetrad is an epistemic and ethical framework for truth
+  governance that integrates four interdependent pillars: Sabda
+  (Revelatory Word, the authoritative source of norm and telos), Logic,
+  Qualia, and Mystica, with Akhlak as the observable surface of
+  verification. This canonical record covers the book manuscript,
+  bilingual semantic definitions, and supporting journal articles
+  released under a CC0 1.0 public domain dedication.
 authors:
   - family-names: "Mutaqin"
     given-names: "Ade Zaenal"
     orcid: "https://orcid.org/0009-0001-4114-3679"
+    affiliation: "Independent researcher; Faculty of Economics and Business, Pakuan University, Bogor, Indonesia; Highland Indonesia Group, Strategic Branding and Research"
 license: "CC0-1.0"
-url: "https://doi.org/10.17605/OSF.IO/D5S7V"
+keywords:
+  - truth governance
+  - epistemic ethics
+  - Sabda
+  - Logic
+  - Qualia
+  - Mystica
+  - Akhlak
+  - philosophy of knowledge
+  - public policy
+  - AI systems
+language: "en"
