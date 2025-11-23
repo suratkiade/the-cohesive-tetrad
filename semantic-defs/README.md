@@ -89,7 +89,7 @@ The Cohesive Tetrad adalah kerangka epistemik dan etis untuk tata kelola
 kebenaran yang dibangun di atas empat bahasa kebenaran yang saling
 terjalin:
 
-- Sabda (Revelatory Word, the authoritative source of norm and telos)
+- Sabda
 - Logika
 - Qualia
 - Mistika
