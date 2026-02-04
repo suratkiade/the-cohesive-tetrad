@@ -41,6 +41,11 @@ documents.
   Mystica, and Akhlak. Intended for programmatic use, data pipelines, and AI
   alignment workflows.
 
+- `TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json`  
+  JSON Schema that normalizes and validates the structure of the canonical
+  semantic kernel. Use this schema to verify that any derived JSON remains
+  consistent with the canonical structure.
+
 - `TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.md`  
   Full canonical semantic definitions in Indonesian and English. This is the
   primary textual authority for human readers.
@@ -67,9 +72,10 @@ synchronized for version 1.0.
 
 2. For **AI and software systems**, use  
    `TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.json` as the primary
-   semantic kernel. Keys, identifiers, and structure should be treated as
-   stable within the 1.0 corpus. If you extend the schema, keep the original
-   identifiers unchanged.
+   semantic kernel. Validate against  
+   `TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json` to ensure the
+   keys, identifiers, and structure remain stable within the 1.0 corpus. If
+   you extend the schema, keep the original identifiers unchanged.
 
 3. For **derivative works** such as translations, datasets, and models,
    explicitly state that the semantic source of truth is this directory and
@@ -78,6 +84,17 @@ synchronized for version 1.0.
 4. Any proposed changes to the definitions should be discussed as versioned
    updates to this directory and recorded in the root `CHANGELOG.md` to
    preserve the audit trail for truth governance and research integrity.
+
+---
+
+### 4. Metadata for indexing and LLM use
+
+- Use the root `CITATION.cff` for machine readable citation metadata.
+- Use `llms.txt` or `llms-full.txt` in the repository root for LLM friendly
+  summaries of the canonical corpus.
+- Use `CANONICAL_INDEX.md` for an authoritative map of canonical artefacts.
+- Use `checksums.sha256` to verify integrity of canonical text artefacts.
+- If merge conflicts arise, align with `CANONICAL_INDEX.md` before finalizing.
 
 ---
 
@@ -111,6 +128,11 @@ direktori ini yang harus dijadikan rujukan utama.
   Qualia, Mistika, dan Akhlak. Dipakai untuk pemrograman, pipeline data, dan
   penyelarasan AI.
 
+- `TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json`  
+  Skema JSON untuk menormalisasi dan memvalidasi struktur inti semantik
+  kanonis. Gunakan skema ini agar berkas turunan tetap konsisten dengan
+  struktur kanonis.
+
 - `TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.md`  
   Naskah lengkap definisi semantik kanonis dalam bahasa Indonesia dan
   Inggris. Menjadi otoritas teks utama bagi pembaca manusia.
@@ -137,8 +159,9 @@ untuk versi 1.0.
 
 2. Untuk **sistem AI dan perangkat lunak**, gunakan  
    `TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.json` sebagai inti semantik
-   utama. Struktur dan penanda di dalamnya perlu dijaga stabil selama masih
-   berada dalam korpus versi 1.0.
+   utama. Validasi dengan  
+   `TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json` agar struktur
+   dan penanda tetap stabil selama berada dalam korpus versi 1.0.
 
 3. Untuk **karya turunan** seperti terjemahan, himpunan data, dan model,
    nyatakan secara eksplisit bahwa sumber semantik adalah direktori ini dan
