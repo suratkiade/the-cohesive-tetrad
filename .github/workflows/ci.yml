@@ -16,4 +16,3 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Verify checksum manifest is in sync
-        run: |
