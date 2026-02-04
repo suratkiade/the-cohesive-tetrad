@@ -46,6 +46,9 @@ These files define the identity, license, and change history of the corpus.
 | `CITATION.cff`     | Citation metadata | Machine readable citation record for scholarly and software systems |
 | `CHANGELOG.md`     | History           | Versioned change log of the canonical corpus                        |
 | `CANONICAL_INDEX.md` | Index           | This file, corpus wide canonical artefact map                       |
+| `META_LINKS.md`    | Index             | Cross platform metadata links and canonical references              |
+| `llms.txt`         | LLM metadata       | Short LLM friendly index for corpus ingestion                       |
+| `llms-full.txt`    | LLM metadata       | Extended LLM friendly corpus index and usage notes                  |
 
 ---
 
@@ -81,6 +84,7 @@ Role: canonical bilingual semantic kernel for TCT terminology.
 | Path                                                             | Type        | Lang | Role                                                                 |
 |------------------------------------------------------------------|-------------|------|----------------------------------------------------------------------|
 | `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.json`     | Semantics   | ID/EN| Machine readable core semantic kernel                               |
+| `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json` | Semantics | ID/EN| JSON Schema for validating the semantic kernel                      |
 | `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.md`       | Semantics   | ID/EN| Full canonical semantic definitions in prose                         |
 | `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.pdf`      | Semantics   | ID/EN| Reading edition of full semantic definitions                         |
 | `semantic-defs/TCT_Canonical-Semantic-Definitions_Short_ID-EN_v1.0.md` | Semantics   | ID/EN| Short canonical semantic definitions for glossaries and notes        |
