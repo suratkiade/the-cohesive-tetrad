@@ -35,6 +35,9 @@ DEFAULT_ALLOWLIST = "scripts/link_check_allowlist.json"
 def iter_urls(text: str) -> set[str]:
     return set(URL_RE.findall(text))
 
+def iter_urls(text: str) -> set[str]:
+    return set(URL_RE.findall(text))
+
 def iter_internal_links(text: str) -> set[str]:
     candidates = set()
     for match in MD_LINK_RE.findall(text):
@@ -169,7 +172,6 @@ def main() -> int:
         if not ok:
             failed.append((url, detail))
         time.sleep(args.sleep)
-
     if failed:
         print("\nFailed URLs:")
         for url, detail in failed:

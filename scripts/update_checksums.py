@@ -54,7 +54,6 @@ def main() -> None:
         handle.write("# SHA-256 checksums for canonical text artefacts\n")
         handle.write("# Regenerate with: scripts/update_checksums.py\n")
         handle.write("# Regenerate with: scripts/update_checksums.sh\n")
-
         for path in FILES:
             data = read_from_worktree(path) if is_dirty(path) else read_from_git(path)
             normalized = data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
