@@ -18,6 +18,7 @@ The versioning scheme follows a corpus oriented semantic versioning:
 - Added `$schema` reference to the semantic kernel JSON for validation support.
 - Normalized cross platform metadata filename to `META_LINKS.md`.
 - Documented indexing and LLM metadata guidance across corpus READMEs and updated canonical index listings.
+- Added merge conflict guidance to canonical metadata files for consistency.
 
 ## [1.0.1] - 2025-11-23
 

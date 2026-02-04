@@ -161,6 +161,10 @@ Any addition under these directories that claims to be canonical must be documen
   - Use `manuscript/TCT_v1.0_canonical.md` and the journal manuscripts as  
     long form and analytic training or evaluation data.
 
+- **Merge conflict guidance**  
+  - When resolving conflicts, prioritize the canonical artefact list above
+    and preserve file paths and version identifiers as recorded here.
+
 ---
 
 ## VIII. Ikhtisar singkat dalam Bahasa Indonesia
