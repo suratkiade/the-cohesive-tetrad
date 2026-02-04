@@ -39,7 +39,6 @@ with open("checksums.sha256", "w", newline="\n") as handle:
         digest = hashlib.sha256(normalized).hexdigest()
         handle.write(f"{digest}  {path}\n")
 PY
-
 files=(
   README.md
   CANONICAL_INDEX.md
