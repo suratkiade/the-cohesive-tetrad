@@ -18,15 +18,19 @@ following canonical metadata sources:
 - `META_LINKS.md` for canonical cross platform references.
 - `checksums.sha256` for integrity verification of canonical text artefacts.
 - `meta/metadata.jsonld` for structured schema.org metadata (SEO/LLM indexing).
-=======
+
+Recommended keywords: The Cohesive Tetrad, truth governance, Sabda, Logic,
+Qualia, Mystica, Akhlak, epistemic ethics, public policy, AI alignment.
+
+If merge conflicts arise, prioritize the canonical sources listed in
+`CANONICAL_INDEX.md` when resolving differences.
+
 
 
 Recommended keywords: The Cohesive Tetrad, truth governance, Sabda, Logic,
 Qualia, Mystica, Akhlak, epistemic ethics, public policy, AI alignment.
 If merge conflicts arise, prioritize the canonical sources listed in
 `CANONICAL_INDEX.md` when resolving differences.
-
-=======
 
 ---
 
