@@ -50,6 +50,7 @@ These files define the identity, license, and change history of the corpus.
 | `llms.txt`         | LLM metadata       | Short LLM friendly index for corpus ingestion                       |
 | `llms-full.txt`    | LLM metadata       | Extended LLM friendly corpus index and usage notes                  |
 
+
 ---
 
 ## III. Manuscript corpus
@@ -159,6 +160,10 @@ Any addition under these directories that claims to be canonical must be documen
     as the primary semantic kernel.  
   - Use `manuscript/TCT_v1.0_canonical.md` and the journal manuscripts as  
     long form and analytic training or evaluation data.
+
+- **Merge conflict guidance**  
+  - When resolving conflicts, prioritize the canonical artefact list above
+    and preserve file paths and version identifiers as recorded here.
 
 ---
 

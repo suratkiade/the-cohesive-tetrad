@@ -94,7 +94,6 @@ synchronized for version 1.0.
   summaries of the canonical corpus.
 - Use `CANONICAL_INDEX.md` for an authoritative map of canonical artefacts.
 
-
 ---
 
 ## II. Ikhtisar kanonis dalam Bahasa Indonesia
