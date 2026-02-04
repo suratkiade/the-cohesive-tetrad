@@ -35,6 +35,7 @@ metadata consistency.
 - Scheduled weekly link checks and added a schema validation workflow for
   the semantic JSON to meet gold standard governance expectations.
 
+
 ## Notes
 - The checksum manifest and CI workflow cover canonical text artefacts only.
 - No executable scripts were found in this repository; therefore, the audit
@@ -44,6 +45,7 @@ metadata consistency.
 - Historical red runs remain visible in GitHub Actions until workflows are
   re-run on the latest commit; re-running jobs clears the status once the
   corrected workflows are in place.
+
 
 ## Next Recommended Review Cadence
 - Re-run this audit whenever canonical files or workflows change.

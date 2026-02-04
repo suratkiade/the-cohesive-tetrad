@@ -52,6 +52,8 @@ These files define the identity, license, and change history of the corpus.
 | `checksums.sha256` | Integrity         | SHA-256 checksums for canonical text artefacts                      |
 | `meta/metadata.jsonld` | Metadata      | Schema.org JSON-LD metadata for SEO and LLM indexing                |
 
+=======
+
 ---
 
 ## III. Manuscript corpus
