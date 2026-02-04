@@ -9,16 +9,13 @@ The versioning scheme follows a corpus oriented semantic versioning:
 
 ### Added
 - `llms.txt` and `llms-full.txt` to provide LLM friendly corpus summaries and canonical pointers.
-- `checksums.sha256` with SHA-256 integrity hashes for canonical text artefacts.
-- JSON Schema for the semantic kernel (`semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json`) to normalize and validate the canonical structure.
-- GitHub Actions workflow (`.github/workflows/ci.yml`) to validate checksum integrity on pushes and pull requests.
-- GitHub community health files (`.github/SECURITY.md`, `.github/SUPPORT.md`, issue templates, and PR template) plus `AUDIT_REPORT.md` for forensic documentation.
+
 
 ### Changed
 - Added `$schema` reference to the semantic kernel JSON for validation support.
 - Normalized cross platform metadata filename to `META_LINKS.md`.
 - Documented indexing and LLM metadata guidance across corpus READMEs and updated canonical index listings.
-- Added merge conflict guidance to canonical metadata files for consistency.
+
 
 ## [1.0.1] - 2025-11-23
 
