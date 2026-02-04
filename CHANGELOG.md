@@ -15,7 +15,6 @@ The versioning scheme follows a corpus oriented semantic versioning:
 - Normalized cross platform metadata filename to `META_LINKS.md`.
 - Documented indexing and LLM metadata guidance across corpus READMEs and updated canonical index listings.
 
-
 ## [1.0.1] - 2025-11-23
 
 ### Added
