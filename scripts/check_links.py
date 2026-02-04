@@ -14,7 +14,11 @@ from urllib.request import Request, urlopen
 
 URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
 MD_LINK_RE = re.compile(r"!?\[[^\]]*]\(([^)]+)\)")
+from urllib.parse import urlparse
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
+URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
 DEFAULT_FILES = [
     "README.md",
     "CANONICAL_INDEX.md",
@@ -28,10 +32,11 @@ DEFAULT_FILES = [
 ]
 DEFAULT_ALLOWLIST = "scripts/link_check_allowlist.json"
 
-
 def iter_urls(text: str) -> set[str]:
     return set(URL_RE.findall(text))
 
+def iter_urls(text: str) -> set[str]:
+    return set(URL_RE.findall(text))
 
 def iter_internal_links(text: str) -> set[str]:
     candidates = set()
@@ -69,7 +74,6 @@ def check_url(url: str, timeout: float) -> tuple[bool, str]:
         except URLError as exc:
             return False, f"URLError {exc.reason}"
     return False, "unreachable"
-
 
 def load_allowlist(path: Path) -> dict[str, str]:
     if not path.exists():
@@ -134,6 +138,7 @@ def main() -> int:
             target = (path.parent / link_path).resolve()
             if not target.exists():
                 internal_links.append((rel, link))
+        urls |= iter_urls(path.read_text(encoding="utf-8"))
 
     if missing_files:
         print("Missing files:")
@@ -159,7 +164,14 @@ def main() -> int:
         for rel, link in internal_links:
             print(f"- {rel}: {link}")
         return 1
-
+    failed: list[tuple[str, str]] = []
+    for url in sorted(urls):
+        ok, detail = check_url(url, args.timeout)
+        status = "OK" if ok else "FAIL"
+        print(f"{status} {url} ({detail})")
+        if not ok:
+            failed.append((url, detail))
+        time.sleep(args.sleep)
     if failed:
         print("\nFailed URLs:")
         for url, detail in failed:

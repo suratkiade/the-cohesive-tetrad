@@ -12,6 +12,8 @@ if importlib.util.find_spec("jsonschema") is None:
     )
     raise SystemExit(0)
 
+import json
+from pathlib import Path
 from jsonschema import Draft202012Validator
 
 schema_path = Path('semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json')
