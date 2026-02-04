@@ -1,0 +1,32 @@
+name: Schema Validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+      - work
+
+jobs:
+  schema:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install jsonschema
+        run: |
+          set -euo pipefail
+          python3 -m pip install --upgrade pip
+          python3 -m pip install jsonschema
+
+      - name: Validate semantic definitions JSON
+        run: |
+          set -euo pipefail
+          python3 scripts/validate_schema.py
