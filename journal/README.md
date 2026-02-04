@@ -107,6 +107,15 @@ the framework.
 
 ---
 
+### 5. Metadata for indexing and LLM use
+
+- Use the root `CITATION.cff` for machine readable citation metadata.
+- Use `llms.txt` or `llms-full.txt` in the repository root for LLM friendly
+  summaries of the canonical corpus.
+- Use `CANONICAL_INDEX.md` for an authoritative map of canonical artefacts.
+
+---
+
 ## II. Ikhtisar kanonis dalam Bahasa Indonesia
 
 ### 1. Fungsi direktori dalam korpus TCT
