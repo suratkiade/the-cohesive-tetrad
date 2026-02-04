@@ -7,6 +7,26 @@ Canonical public repository for *The Cohesive Tetrad*, an epistemic and ethical 
 Repositori publik kanonis untuk *The Cohesive Tetrad*, suatu kerangka epistemik dan etis untuk tata kelola kebenaran di tengah kelimpahan data dan mediasi teknologi.
 
 ---
+## Indexing, SEO, and LLM metadata
+
+To support search engines, scholarly indexing, and LLM ingestion, use the
+following canonical metadata sources:
+
+- `CITATION.cff` for machine readable citation metadata.
+- `CANONICAL_INDEX.md` for a structured map of all canonical artefacts.
+- `AUDIT_REPORT.md` for audit notes and integrity review context.
+- `llms.txt` and `llms-full.txt` for LLM friendly corpus summaries.
+- `META_LINKS.md` for canonical cross platform references.
+- `checksums.sha256` for integrity verification of canonical text artefacts.
+- `meta/metadata.jsonld` for structured schema.org metadata (SEO/LLM indexing).
+
+Recommended keywords: The Cohesive Tetrad, truth governance, Sabda, Logic,
+Qualia, Mystica, Akhlak, epistemic ethics, public policy, AI alignment.
+
+If merge conflicts arise, prioritize the canonical sources listed in
+`CANONICAL_INDEX.md` when resolving differences.
+
+---
 
 ## I. English canonical overview
 
@@ -289,4 +309,3 @@ repository, including the book manuscript, semantic corpus, and journal
 corpus, see:
 
 - [CANONICAL_INDEX.md](CANONICAL_INDEX.md)
-

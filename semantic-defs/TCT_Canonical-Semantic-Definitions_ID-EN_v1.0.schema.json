@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/suratkiade/the-cohesive-tetrad/blob/main/semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json",
+  "title": "The Cohesive Tetrad Canonical Semantic Definitions Schema (v1.0)",
+  "description": "Schema for the canonical bilingual semantic definitions of Sabda, Logic, Qualia, Mystica, and Akhlak in The Cohesive Tetrad corpus.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "document_type",
+    "languages",
+    "metadata",
+    "header_text",
+    "preamble",
+    "terms",
+    "citation",
+    "license"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "schema_version": {
+      "type": "string",
+      "pattern": "^1\\.0$"
+    },
+    "document_type": {
+      "type": "string",
+      "const": "canonical_semantic_definitions"
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 2
+      },
+      "minItems": 2,
+      "uniqueItems": true
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "title_id",
+        "title_en",
+        "short_title",
+        "author",
+        "affiliation",
+        "corresponding_author_email",
+        "orcid",
+        "version",
+        "date",
+        "series",
+        "doi_osf",
+        "primary_language",
+        "secondary_language"
+      ],
+      "properties": {
+        "title_id": { "type": "string" },
+        "title_en": { "type": "string" },
+        "short_title": { "type": "string" },
+        "author": { "type": "string" },
+        "affiliation": { "type": "string" },
+        "corresponding_author_email": { "type": "string", "format": "email" },
+        "orcid": { "type": "string" },
+        "version": { "type": "string" },
+        "date": { "type": "string" },
+        "series": { "type": "string" },
+        "doi_osf": { "type": "string" },
+        "primary_language": { "type": "string" },
+        "secondary_language": { "type": "string" }
+      }
+    },
+    "header_text": {
+      "type": "string"
+    },
+    "preamble": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "en"],
+      "properties": {
+        "id": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    },
+    "terms": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sabda", "logika", "qualia", "mistika", "akhlak"],
+      "properties": {
+        "sabda": { "$ref": "#/$defs/term" },
+        "logika": { "$ref": "#/$defs/term" },
+        "qualia": { "$ref": "#/$defs/term" },
+        "mistika": { "$ref": "#/$defs/termWithEpigram" },
+        "akhlak": { "$ref": "#/$defs/term" }
+      }
+    },
+    "citation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "en"],
+      "properties": {
+        "id": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    },
+    "license": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "en"],
+      "properties": {
+        "id": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    }
+  },
+  "$defs": {
+    "term": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label_id", "label_en", "definition_id", "definition_en"],
+      "properties": {
+        "label_id": { "type": "string" },
+        "label_en": { "type": "string" },
+        "definition_id": { "type": "string" },
+        "definition_en": { "type": "string" }
+      }
+    },
+    "termWithEpigram": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label_id", "label_en", "definition_id", "definition_en"],
+      "properties": {
+        "label_id": { "type": "string" },
+        "label_en": { "type": "string" },
+        "definition_id": { "type": "string" },
+        "definition_en": { "type": "string" },
+        "epigram_id": { "type": "string" },
+        "epigram_en": { "type": "string" }
+      }
+    }
+  }
+}
