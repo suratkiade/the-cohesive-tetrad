@@ -17,6 +17,7 @@ following canonical metadata sources:
 - `llms.txt` and `llms-full.txt` for LLM friendly corpus summaries.
 - `META_LINKS.md` for canonical cross platform references.
 
+
 Recommended keywords: The Cohesive Tetrad, truth governance, Sabda, Logic,
 Qualia, Mystica, Akhlak, epistemic ethics, public policy, AI alignment.
 

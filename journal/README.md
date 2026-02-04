@@ -114,6 +114,7 @@ the framework.
   summaries of the canonical corpus.
 - Use `CANONICAL_INDEX.md` for an authoritative map of canonical artefacts.
 
+
 ---
 
 ## II. Ikhtisar kanonis dalam Bahasa Indonesia
