@@ -1,4 +1,9 @@
 # SHA-256 checksums for canonical text artefacts
+# Regenerate with: scripts/update_checksums.py
+f64d24744ae3ff651d8bb5db6f1606c7beaf04f68b3b1fb7f8eaf97db1e71568  README.md
+7feba34faf6724c612d1a5de2d845a4c9007f820d68cc38126156b4a2f6aca71  CANONICAL_INDEX.md
+f58b05437090e6145d06eda832e6e86e19f69253e954c506e1251a53b4c82944  CHANGELOG.md
+d8ab287a6dba671d0a1da0cc63dea4d15d1a7f1359d88ae25bdb84d141055a05  AUDIT_REPORT.md
 # Regenerate with: scripts/update_checksums.sh
 f64d24744ae3ff651d8bb5db6f1606c7beaf04f68b3b1fb7f8eaf97db1e71568  README.md
 7feba34faf6724c612d1a5de2d845a4c9007f820d68cc38126156b4a2f6aca71  CANONICAL_INDEX.md

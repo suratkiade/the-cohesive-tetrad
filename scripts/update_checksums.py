@@ -52,6 +52,7 @@ def is_dirty(path: str) -> bool:
 def main() -> None:
     with open("checksums.sha256", "w", newline="\n") as handle:
         handle.write("# SHA-256 checksums for canonical text artefacts\n")
+        handle.write("# Regenerate with: scripts/update_checksums.py\n")
         handle.write("# Regenerate with: scripts/update_checksums.sh\n")
 
         for path in FILES:

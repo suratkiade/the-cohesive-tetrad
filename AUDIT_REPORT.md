@@ -26,6 +26,7 @@ metadata consistency.
 - Created this audit report to document scope, findings, and remediation.
 - Added `.gitattributes` to enforce LF normalization and reduce checksum
   drift across platforms.
+- Added `scripts/update_checksums.py` and updated the CI workflow to use it,
 - Added `scripts/update_checksums.sh` and updated the CI workflow to use it,
   ensuring deterministic checksum validation.
 - Added merge conflict guidance in canonical metadata files to standardize

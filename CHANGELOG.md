@@ -13,6 +13,7 @@ The versioning scheme follows a corpus oriented semantic versioning:
 - JSON Schema for the semantic kernel (`semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json`) to normalize and validate the canonical structure.
 - GitHub Actions workflow (`.github/workflows/ci.yml`) to validate checksum integrity on pushes and pull requests.
 - GitHub community health files (`.github/SECURITY.md`, `.github/SUPPORT.md`, issue templates, and PR template) plus `AUDIT_REPORT.md` for forensic documentation.
+- `scripts/update_checksums.py` to regenerate the checksum manifest consistently across environments.
 - `scripts/update_checksums.sh` to regenerate the checksum manifest consistently across environments.
 - `scripts/check_links.py` and a manual GitHub Actions workflow (`.github/workflows/link_check.yml`) for on-demand link validation.
 - `meta/metadata.jsonld` to publish schema.org metadata for SEO and LLM indexing.
