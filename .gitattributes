@@ -1,0 +1,8 @@
+# Normalize text files to LF to keep checksum manifest stable across platforms
+*.md text eol=lf
+*.txt text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.cff text eol=lf
+checksums.sha256 text eol=lf

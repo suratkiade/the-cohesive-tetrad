@@ -10,7 +10,6 @@ The versioning scheme follows a corpus oriented semantic versioning:
 ### Added
 - `llms.txt` and `llms-full.txt` to provide LLM friendly corpus summaries and canonical pointers.
 
-
 ### Changed
 - Added `$schema` reference to the semantic kernel JSON for validation support.
 - Normalized cross platform metadata filename to `META_LINKS.md`.
