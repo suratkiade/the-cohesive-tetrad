@@ -11,6 +11,9 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
+from urllib.parse import urlparse
+from urllib.request import Request, urlopen
+from urllib.error import HTTPError, URLError
 
 URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
 
@@ -26,7 +29,6 @@ DEFAULT_FILES = [
     "semantic-defs/README.md",
 ]
 DEFAULT_ALLOWLIST = "scripts/link_check_allowlist.json"
-
 
 def iter_urls(text: str) -> set[str]:
     return set(URL_RE.findall(text))
@@ -56,7 +58,6 @@ def check_url(url: str, timeout: float) -> tuple[bool, str]:
         except URLError as exc:
             return False, f"URLError {exc.reason}"
     return False, "unreachable"
-
 
 def load_allowlist(path: Path) -> dict[str, str]:
     if not path.exists():
@@ -131,6 +132,12 @@ def main() -> int:
             print(f"SKIP {url} ({detail}; allowlisted: {allowlist[url]})")
         else:
             print(f"FAIL {url} ({detail})")
+    failed: list[tuple[str, str]] = []
+    for url in sorted(urls):
+        ok, detail = check_url(url, args.timeout)
+        status = "OK" if ok else "FAIL"
+        print(f"{status} {url} ({detail})")
+        if not ok:
             failed.append((url, detail))
         time.sleep(args.sleep)
 

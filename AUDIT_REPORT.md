@@ -27,12 +27,14 @@ metadata consistency.
 - Added `.gitattributes` to enforce LF normalization and reduce checksum
   drift across platforms.
 - Added `scripts/update_checksums.py` and updated the CI workflow to use it,
+- Added `scripts/update_checksums.sh` and updated the CI workflow to use it,
   ensuring deterministic checksum validation.
 - Added merge conflict guidance in canonical metadata files to standardize
   conflict resolution.
 - Added `scripts/check_links.py` and a manual GitHub Actions workflow so link
   validation can be run without failing CI on transient network issues, with a
   documented allowlist for restricted endpoints.
+  validation can be run without failing CI on transient network issues.
 - Scheduled weekly link checks and added a schema validation workflow for
   the semantic JSON to meet gold standard governance expectations.
 
