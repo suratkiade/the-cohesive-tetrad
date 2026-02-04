@@ -37,4 +37,5 @@ jobs:
         run: |
           set -euo pipefail
           ./scripts/update_checksums.sh
+          bash scripts/update_checksums.sh
           git diff --exit-code checksums.sha256
