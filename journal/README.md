@@ -113,7 +113,7 @@ the framework.
 - Use `llms.txt` or `llms-full.txt` in the repository root for LLM friendly
   summaries of the canonical corpus.
 - Use `CANONICAL_INDEX.md` for an authoritative map of canonical artefacts.
-- Use `checksums.sha256` to verify integrity of canonical text artefacts.
+
 
 ---
 
