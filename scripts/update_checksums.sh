@@ -3,6 +3,10 @@ set -euo pipefail
 
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$root_dir"
+
+python3 - <<'PY'
+import hashlib
+import subprocess
 python3 - <<'PY'
 import hashlib
 from pathlib import Path
@@ -29,11 +33,34 @@ files = [
     "semantic-defs/TCT_Canonical-Semantic-Definitions_Short_ID-EN_v1.0.md",
 ]
 
+def read_from_git(path: str) -> bytes:
+    result = subprocess.run(
+        ["git", "show", f"HEAD:{path}"],
+        check=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    return result.stdout
+
+
+def read_from_worktree(path: str) -> bytes:
+    return Path(path).read_bytes()
+
+
+def is_dirty(path: str) -> bool:
+    result = subprocess.run(
+        ["git", "status", "--porcelain", "--", path],
+        check=True,
+        stdout=subprocess.PIPE,
+    )
+    return bool(result.stdout.strip())
+
 with open("checksums.sha256", "w", newline="\n") as handle:
     handle.write("# SHA-256 checksums for canonical text artefacts\n")
     handle.write("# Regenerate with: scripts/update_checksums.sh\n")
 
     for path in files:
+        data = read_from_worktree(path) if is_dirty(path) else read_from_git(path)
         data = Path(path).read_bytes()
         normalized = data.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
         digest = hashlib.sha256(normalized).hexdigest()
