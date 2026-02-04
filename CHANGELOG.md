@@ -29,6 +29,7 @@ The versioning scheme follows a corpus oriented semantic versioning:
 - Updated checksum workflow to use the shared manifest script for consistent CI results.
 - Added a manual link check workflow to avoid breaking CI while enabling periodic validation.
 - Documented link-check allowlist entries that block automated requests and require manual verification.
+- Expanded link checks to validate relative Markdown links inside canonical documentation.
 - Scheduled weekly link checks and added schema validation plus PR checklist items for gold standard governance.
 
 ## [1.0.1] - 2025-11-23

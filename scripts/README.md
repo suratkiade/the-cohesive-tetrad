@@ -22,3 +22,4 @@ maintenance tasks.
 - Allowlist: `scripts/link_check_allowlist.json` records URLs that block
   automated checks (403/robots). These entries require periodic manual
   verification and are treated as documented exceptions.
+- Internal links: relative Markdown links are checked for missing files.

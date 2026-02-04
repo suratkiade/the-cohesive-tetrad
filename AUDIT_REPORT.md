@@ -34,6 +34,8 @@ metadata consistency.
 - Added `scripts/check_links.py` and a manual GitHub Actions workflow so link
   validation can be run without failing CI on transient network issues, with a
   documented allowlist for restricted endpoints.
+- Expanded the link checker to validate relative Markdown links for missing
+  files.
   validation can be run without failing CI on transient network issues.
 - Scheduled weekly link checks and added a schema validation workflow for
   the semantic JSON to meet gold standard governance expectations.
@@ -48,6 +50,14 @@ metadata consistency.
 - Historical red runs remain visible in GitHub Actions until workflows are
   re-run on the latest commit; re-running jobs clears the status once the
   corrected workflows are in place.
+
+## Evidence
+- `python3 scripts/update_checksums.py`
+- `python3 scripts/check_links.py`
+- `python3 scripts/validate_schema.py` (reports missing `jsonschema` with
+  install guidance and exits cleanly in offline environments)
+- `ruby -ryaml -e 'YAML.load_file(...)'` for each workflow file
+- `python3 -c 'json.load(...)'` for JSON/JSON-LD sources
 
 ## Next Recommended Review Cadence
 - Re-run this audit whenever canonical files or workflows change.

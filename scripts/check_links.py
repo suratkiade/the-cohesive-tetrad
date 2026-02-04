@@ -11,12 +11,14 @@ from pathlib import Path
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
+
+URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
+MD_LINK_RE = re.compile(r"!?\[[^\]]*]\(([^)]+)\)")
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
 
 URL_RE = re.compile(r"https?://[^\s)\]>\"']+")
-
 DEFAULT_FILES = [
     "README.md",
     "CANONICAL_INDEX.md",
@@ -32,6 +34,17 @@ DEFAULT_ALLOWLIST = "scripts/link_check_allowlist.json"
 
 def iter_urls(text: str) -> set[str]:
     return set(URL_RE.findall(text))
+
+def iter_internal_links(text: str) -> set[str]:
+    candidates = set()
+    for match in MD_LINK_RE.findall(text):
+        target = match.strip()
+        if not target or target.startswith("#"):
+            continue
+        if urlparse(target).scheme:
+            continue
+        candidates.add(target)
+    return candidates
 
 
 def check_url(url: str, timeout: float) -> tuple[bool, str]:
@@ -107,6 +120,7 @@ def main() -> int:
 
     root = Path(args.root)
     urls: set[str] = set()
+    internal_links: list[tuple[str, str]] = []
     missing_files: list[str] = []
 
     for rel in args.files:
@@ -114,6 +128,13 @@ def main() -> int:
         if not path.exists():
             missing_files.append(rel)
             continue
+        text = path.read_text(encoding="utf-8")
+        urls |= iter_urls(text)
+        for link in iter_internal_links(text):
+            link_path = link.split("#", 1)[0]
+            target = (path.parent / link_path).resolve()
+            if not target.exists():
+                internal_links.append((rel, link))
         urls |= iter_urls(path.read_text(encoding="utf-8"))
 
     if missing_files:
@@ -132,6 +153,14 @@ def main() -> int:
             print(f"SKIP {url} ({detail}; allowlisted: {allowlist[url]})")
         else:
             print(f"FAIL {url} ({detail})")
+            failed.append((url, detail))
+        time.sleep(args.sleep)
+
+    if internal_links:
+        print("\nBroken internal links:")
+        for rel, link in internal_links:
+            print(f"- {rel}: {link}")
+        return 1
     failed: list[tuple[str, str]] = []
     for url in sorted(urls):
         ok, detail = check_url(url, args.timeout)
