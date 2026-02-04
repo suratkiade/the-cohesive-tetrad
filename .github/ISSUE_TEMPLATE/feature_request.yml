@@ -1,0 +1,28 @@
+name: Feature request
+description: Suggest an improvement to metadata, structure, or governance.
+title: "[Request]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please describe the requested change and how it aligns with the canonical corpus.
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: Describe the change and its purpose.
+    validations:
+      required: true
+  - type: textarea
+    id: justification
+    attributes:
+      label: Justification
+      description: Explain how this request supports the canonical corpus and standards.
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Add links or citations if relevant.
