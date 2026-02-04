@@ -20,7 +20,6 @@ following canonical metadata sources:
 Recommended keywords: The Cohesive Tetrad, truth governance, Sabda, Logic,
 Qualia, Mystica, Akhlak, epistemic ethics, public policy, AI alignment.
 
-
 ---
 
 ## I. English canonical overview
