@@ -14,6 +14,7 @@ following canonical metadata sources:
 
 - `CITATION.cff` for machine readable citation metadata.
 - `CANONICAL_INDEX.md` for a structured map of all canonical artefacts.
+- `AUDIT_REPORT.md` for audit notes and integrity review context.
 - `llms.txt` and `llms-full.txt` for LLM friendly corpus summaries.
 - `META_LINKS.md` for canonical cross platform references.
 - `checksums.sha256` for integrity verification of canonical text artefacts.
@@ -29,7 +30,6 @@ Recommended keywords: The Cohesive Tetrad, truth governance, Sabda, Logic,
 Qualia, Mystica, Akhlak, epistemic ethics, public policy, AI alignment.
 If merge conflicts arise, prioritize the canonical sources listed in
 `CANONICAL_INDEX.md` when resolving differences.
-
 ---
 
 ## I. English canonical overview

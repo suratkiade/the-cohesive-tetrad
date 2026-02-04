@@ -45,6 +45,7 @@ These files define the identity, license, and change history of the corpus.
 | `LICENSE`          | Legal             | CC0 1.0 Universal public domain dedication text                     |
 | `CITATION.cff`     | Citation metadata | Machine readable citation record for scholarly and software systems |
 | `CHANGELOG.md`     | History           | Versioned change log of the canonical corpus                        |
+| `AUDIT_REPORT.md`  | Audit             | Integrity audit notes and forensic documentation                    |
 | `CANONICAL_INDEX.md` | Index           | This file, corpus wide canonical artefact map                       |
 | `META_LINKS.md`    | Index             | Cross platform metadata links and canonical references              |
 | `llms.txt`         | LLM metadata       | Short LLM friendly index for corpus ingestion                       |

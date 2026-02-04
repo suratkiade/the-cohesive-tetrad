@@ -8,6 +8,7 @@ files=(
   README.md
   CANONICAL_INDEX.md
   CHANGELOG.md
+  AUDIT_REPORT.md
   CITATION.cff
   META_LINKS.md
   llms.txt
