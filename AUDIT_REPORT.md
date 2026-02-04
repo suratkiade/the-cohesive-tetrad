@@ -32,6 +32,8 @@ metadata consistency.
 - Added merge conflict guidance in canonical metadata files to standardize
   conflict resolution.
 - Added `scripts/check_links.py` and a manual GitHub Actions workflow so link
+  validation can be run without failing CI on transient network issues, with a
+  documented allowlist for restricted endpoints.
   validation can be run without failing CI on transient network issues.
 - Scheduled weekly link checks and added a schema validation workflow for
   the semantic JSON to meet gold standard governance expectations.
@@ -42,6 +44,7 @@ metadata consistency.
   focuses on documentation, metadata, and GitHub configuration standards.
 - GitHub Actions should show green once checksum regeneration uses the shared
   script and line endings are normalized.
+- Script purposes and dependencies are documented in `scripts/README.md`.
 - Historical red runs remain visible in GitHub Actions until workflows are
   re-run on the latest commit; re-running jobs clears the status once the
   corrected workflows are in place.

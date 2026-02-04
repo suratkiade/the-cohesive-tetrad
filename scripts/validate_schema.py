@@ -1,4 +1,17 @@
 #!/usr/bin/env python3
+import importlib.util
+import json
+import sys
+from pathlib import Path
+
+if importlib.util.find_spec("jsonschema") is None:
+    print(
+        "jsonschema is not installed. Install it with "
+        "`python3 -m pip install jsonschema` before running this script.",
+        file=sys.stderr,
+    )
+    raise SystemExit(0)
+
 import json
 from pathlib import Path
 from jsonschema import Draft202012Validator

@@ -3,10 +3,14 @@
 from __future__ import annotations
 
 import argparse
+import json
 import re
 import sys
 import time
 from pathlib import Path
+from urllib.error import HTTPError, URLError
+from urllib.parse import urlparse
+from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 from urllib.request import Request, urlopen
 from urllib.error import HTTPError, URLError
@@ -24,7 +28,7 @@ DEFAULT_FILES = [
     "journal/README.md",
     "semantic-defs/README.md",
 ]
-
+DEFAULT_ALLOWLIST = "scripts/link_check_allowlist.json"
 
 def iter_urls(text: str) -> set[str]:
     return set(URL_RE.findall(text))
@@ -55,6 +59,19 @@ def check_url(url: str, timeout: float) -> tuple[bool, str]:
             return False, f"URLError {exc.reason}"
     return False, "unreachable"
 
+def load_allowlist(path: Path) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    entries = payload.get("entries", [])
+    return {entry["url"]: entry["reason"] for entry in entries}
+
+
+def is_allowlisted(url: str, detail: str, allowlist: dict[str, str]) -> bool:
+    if url not in allowlist:
+        return False
+    return "403" in detail or "Forbidden" in detail or "URLError" in detail
+
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Check external links.")
@@ -81,6 +98,11 @@ def main() -> int:
         default=DEFAULT_FILES,
         help="Files to scan for URLs",
     )
+    parser.add_argument(
+        "--allowlist",
+        default=DEFAULT_ALLOWLIST,
+        help="JSON allowlist for known restricted URLs",
+    )
     args = parser.parse_args()
 
     root = Path(args.root)
@@ -100,6 +122,16 @@ def main() -> int:
             print(f"- {rel}")
         return 2
 
+    allowlist = load_allowlist(root / args.allowlist)
+    failed: list[tuple[str, str]] = []
+    for url in sorted(urls):
+        ok, detail = check_url(url, args.timeout)
+        if ok:
+            print(f"OK {url} ({detail})")
+        elif is_allowlisted(url, detail, allowlist):
+            print(f"SKIP {url} ({detail}; allowlisted: {allowlist[url]})")
+        else:
+            print(f"FAIL {url} ({detail})")
     failed: list[tuple[str, str]] = []
     for url in sorted(urls):
         ok, detail = check_url(url, args.timeout)

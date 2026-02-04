@@ -1,0 +1,48 @@
+{
+  "entries": [
+    {
+      "url": "https://doi.org/10.17605/OSF.IO/D5S7V",
+      "reason": "DOI resolver blocks automated HEAD/GET from CI; verify manually or via publisher."
+    },
+    {
+      "url": "https://figshare.com/collections/The_Cohesive_Tetrad_Canonical_Manuscript_and_Open_Framework_Figshare_Collection_/8137628",
+      "reason": "Figshare returns 403 to automated checks; verify in browser."
+    },
+    {
+      "url": "https://github.com/suratkiade/the-cohesive-tetrad",
+      "reason": "GitHub may block unauthenticated automated link checks."
+    },
+    {
+      "url": "https://github.com/suratkiade/the-cohesive-tetrad/releases/tag/v1.0.0",
+      "reason": "GitHub releases may block unauthenticated automated link checks."
+    },
+    {
+      "url": "https://huggingface.co/datasets/suratkiade/the-cohesive-tetrad-canonical",
+      "reason": "Hugging Face blocks automated link checks from CI."
+    },
+    {
+      "url": "https://huggingface.co/spaces/suratkiade/the-cohesive-tetrad-chat",
+      "reason": "Hugging Face blocks automated link checks from CI."
+    },
+    {
+      "url": "https://huggingface.co/suratkiade/the-cohesive-tetrad-instruct-base",
+      "reason": "Hugging Face blocks automated link checks from CI."
+    },
+    {
+      "url": "https://huggingface.co/suratkiade/the-cohesive-tetrad-instruct-v1",
+      "reason": "Hugging Face blocks automated link checks from CI."
+    },
+    {
+      "url": "https://orcid.org/0009-0001-4114-3679",
+      "reason": "ORCID blocks automated link checks from CI."
+    },
+    {
+      "url": "https://philarchive.org/archive/MUTTCT-2",
+      "reason": "PhilArchive blocks automated link checks from CI."
+    },
+    {
+      "url": "https://suratkiade.github.io/the-cohesive-tetrad-book/",
+      "reason": "GitHub Pages may block automated link checks from CI."
+    }
+  ]
+}

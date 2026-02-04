@@ -14,6 +14,7 @@ The versioning scheme follows a corpus oriented semantic versioning:
 - GitHub Actions workflow (`.github/workflows/ci.yml`) to validate checksum integrity on pushes and pull requests.
 - GitHub community health files (`.github/SECURITY.md`, `.github/SUPPORT.md`, issue templates, and PR template) plus `AUDIT_REPORT.md` for forensic documentation.
 - `scripts/update_checksums.py` to regenerate the checksum manifest consistently across environments.
+- `scripts/README.md` plus `scripts/link_check_allowlist.json` to document script purposes and link-check exceptions.
 - `scripts/update_checksums.sh` to regenerate the checksum manifest consistently across environments.
 - `scripts/check_links.py` and a manual GitHub Actions workflow (`.github/workflows/link_check.yml`) for on-demand link validation.
 - `meta/metadata.jsonld` to publish schema.org metadata for SEO and LLM indexing.
@@ -27,6 +28,7 @@ The versioning scheme follows a corpus oriented semantic versioning:
 - Enforced LF normalization via `.gitattributes` to stabilize checksum validation across platforms.
 - Updated checksum workflow to use the shared manifest script for consistent CI results.
 - Added a manual link check workflow to avoid breaking CI while enabling periodic validation.
+- Documented link-check allowlist entries that block automated requests and require manual verification.
 - Scheduled weekly link checks and added schema validation plus PR checklist items for gold standard governance.
 
 ## [1.0.1] - 2025-11-23
