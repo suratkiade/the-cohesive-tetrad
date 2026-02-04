@@ -1,0 +1,23 @@
+name: Canonical Checks
+
+on:
+  push:
+    branches:
+      - main
+      - master
+      - work
+  pull_request:
+
+jobs:
+  checksum:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify checksum manifest is in sync
+        shell: bash
+        run: |
+          set -euo pipefail
+          ./scripts/update_checksums.sh
+          git diff --exit-code checksums.sha256
