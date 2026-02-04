@@ -1,11 +1,4 @@
 ## Summary
-- 
-
-## Changes
-- 
-
-## Testing
-- 
 
 ## Checklist
 - [ ] Updated CHANGELOG.md (if applicable)
