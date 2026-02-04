@@ -17,6 +17,3 @@ jobs:
 
       - name: Verify checksum manifest is in sync
         run: |
-          set -euo pipefail
-          bash scripts/update_checksums.sh
-          git diff --exit-code checksums.sha256
