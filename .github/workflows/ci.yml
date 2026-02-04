@@ -36,6 +36,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
+          python3 scripts/update_checksums.py
           ./scripts/update_checksums.sh
 
           bash scripts/update_checksums.sh
