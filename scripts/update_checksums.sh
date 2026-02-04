@@ -36,6 +36,7 @@ echo "# SHA-256 checksums for canonical text artefacts" > checksums.sha256
 echo "# Regenerate with: scripts/update_checksums.sh" >> checksums.sha256
 
 sha256sum "${files[@]}" >> checksums.sha256
+
 echo "# SHA-256 checksums for canonical text artefacts" > checksums.sha256
 echo "# Regenerate with: scripts/update_checksums.sh" >> checksums.sha256
 
@@ -59,4 +60,3 @@ sha256sum \
   semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.md \
   semantic-defs/TCT_Canonical-Semantic-Definitions_Short_ID-EN_v1.0.md \
   >> checksums.sha256
-
