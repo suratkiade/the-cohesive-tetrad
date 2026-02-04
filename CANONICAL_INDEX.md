@@ -49,6 +49,11 @@ These files define the identity, license, and change history of the corpus.
 | `META_LINKS.md`    | Index             | Cross platform metadata links and canonical references              |
 | `llms.txt`         | LLM metadata       | Short LLM friendly index for corpus ingestion                       |
 | `llms-full.txt`    | LLM metadata       | Extended LLM friendly corpus index and usage notes                  |
+| `checksums.sha256` | Integrity         | SHA-256 checksums for canonical text artefacts                      |
+| `meta/metadata.jsonld` | Metadata      | Schema.org JSON-LD metadata for SEO and LLM indexing                |
+
+=======
+
 ---
 
 ## III. Manuscript corpus

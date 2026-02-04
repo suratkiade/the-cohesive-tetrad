@@ -15,6 +15,8 @@ sha256sum \
   META_LINKS.md \
   llms.txt \
   llms-full.txt \
+  meta/metadata.jsonld \
+=======
   manuscript/README.md \
   manuscript/TCT_v1.0_canonical.md \
   journal/README.md \
