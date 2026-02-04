@@ -4,6 +4,7 @@ set -euo pipefail
 root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$root_dir"
 
+python3 scripts/update_checksums.py
 python3 - <<'PY'
 import hashlib
 import subprocess
