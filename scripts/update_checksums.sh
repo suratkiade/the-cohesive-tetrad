@@ -35,6 +35,7 @@ done
 echo "# SHA-256 checksums for canonical text artefacts" > checksums.sha256
 echo "# Regenerate with: scripts/update_checksums.sh" >> checksums.sha256
 
+LC_ALL=C sha256sum "${files[@]}" >> checksums.sha256
 sha256sum "${files[@]}" >> checksums.sha256
 
 echo "# SHA-256 checksums for canonical text artefacts" > checksums.sha256
