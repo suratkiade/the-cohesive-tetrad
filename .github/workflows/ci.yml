@@ -37,4 +37,7 @@ jobs:
         run: |
           set -euo pipefail
           python3 scripts/update_checksums.py
+          ./scripts/update_checksums.sh
+
+          bash scripts/update_checksums.sh
           git diff --exit-code checksums.sha256
