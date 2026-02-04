@@ -1,0 +1,32 @@
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "name": "The Cohesive Tetrad: Jalan Menuju Kebenaran",
+  "alternateName": "The Cohesive Tetrad: Sabda, Logic, Qualia, Mystica",
+  "author": {
+    "@type": "Person",
+    "name": "Ade Zaenal Mutaqin",
+    "identifier": "https://orcid.org/0009-0001-4114-3679"
+  },
+  "identifier": "https://doi.org/10.17605/OSF.IO/D5S7V",
+  "url": "https://github.com/suratkiade/the-cohesive-tetrad",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "inLanguage": ["id", "en"],
+  "datePublished": "2025-11-01",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Faculty of Economics and Business, Pakuan University, Bogor, Indonesia"
+  },
+  "keywords": [
+    "The Cohesive Tetrad",
+    "truth governance",
+    "Sabda",
+    "Logic",
+    "Qualia",
+    "Mystica",
+    "Akhlak",
+    "epistemic ethics",
+    "public policy",
+    "AI alignment"
+  ]
+}
