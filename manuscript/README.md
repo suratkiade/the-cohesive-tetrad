@@ -105,7 +105,18 @@ recommended:
 
 ---
 
-## V. Ikhtisar kanonis dalam Bahasa Indonesia
+## V. Metadata for indexing and LLM use
+
+- Use the root `CITATION.cff` for machine readable citation metadata.
+- Use `llms.txt` or `llms-full.txt` in the repository root for LLM friendly
+  summaries of the canonical corpus.
+- Use `CANONICAL_INDEX.md` for an authoritative map of canonical artefacts.
+- Use `checksums.sha256` to verify integrity of canonical text artefacts.
+- If merge conflicts arise, align with `CANONICAL_INDEX.md` before finalizing.
+
+---
+
+## VI. Ikhtisar kanonis dalam Bahasa Indonesia
 
 Direktori `manuscript` menyimpan naskah buku kanonis *The Cohesive Tetrad:
 Jalan Menuju Kebenaran*. Naskah ini menguraikan secara sistematis kerangka
@@ -125,4 +136,3 @@ kasih, dan memuliakan martabat setiap insan.
 Naskah di direktori ini harus selalu dibaca dalam keterpaduannya dengan
 definisi semantik kanonis di `semantic-defs/` dan artikel jurnal di
 `journal/`, agar horizon makna The Cohesive Tetrad tetap terjaga utuh.
-
