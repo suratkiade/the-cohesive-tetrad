@@ -50,7 +50,6 @@ These files define the identity, license, and change history of the corpus.
 | `llms.txt`         | LLM metadata       | Short LLM friendly index for corpus ingestion                       |
 | `llms-full.txt`    | LLM metadata       | Extended LLM friendly corpus index and usage notes                  |
 
-
 ---
 
 ## III. Manuscript corpus

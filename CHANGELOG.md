@@ -10,7 +10,6 @@ The versioning scheme follows a corpus oriented semantic versioning:
 ### Added
 - `llms.txt` and `llms-full.txt` to provide LLM friendly corpus summaries and canonical pointers.
 
-- JSON Schema for the semantic kernel (`semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.schema.json`) to normalize and validate the canonical structure.
 
 ### Changed
 - Added `$schema` reference to the semantic kernel JSON for validation support.
