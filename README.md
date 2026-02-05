@@ -28,8 +28,6 @@ If merge conflicts arise, prioritize the canonical sources listed in
 
 Recommended keywords: The Cohesive Tetrad, truth governance, Sabda, Logic,
 Qualia, Mystica, Akhlak, epistemic ethics, public policy, AI alignment.
-If merge conflicts arise, prioritize the canonical sources listed in
-`CANONICAL_INDEX.md` when resolving differences.
 ---
 
 ## I. English canonical overview
