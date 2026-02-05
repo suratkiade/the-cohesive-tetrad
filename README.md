@@ -57,26 +57,33 @@ This repository and its tagged releases constitute the canonical public record f
 - https://github.com/suratkiade/the-cohesive-tetrad/releases/tag/v1.0.0  
 
 ---
-
 ### 2. Semantic field of The Cohesive Tetrad
 
-*The Cohesive Tetrad* is an epistemic and ethical framework for truth governance. It takes seriously the fact that institutions, technologies, and communities speak in different idioms of truth, while human beings remain responsible before something higher than power, appetite, or efficiency. The framework articulates four interdependent languages of truth:
+*The Cohesive Tetrad* (TCT) is an epistemic and ethical architecture for **truth governance**. It begins from a hard constraint: institutions, technologies, and communities speak in different idioms of truth, yet human beings remain answerable before a binding measure that is higher than power, appetite, or efficiency. TCT therefore refuses single-language reductions of truth (pure procedure, pure sentiment, pure experience, or pure inwardness). Instead, it articulates a locked system of **four interdependent languages of truth** whose functions are distinct, mutually corrective, and jointly answerable.
+
+The four languages of truth are ordered as **Saloqum**: **Sabda, Logic, Qualia, Mistika**. This order is canonical within TCT and is not interchangeable.
 
 - **Sabda (Revelatory Word, the authoritative source of norm and telos)**  
-  Sabda refers to the class of normative utterances that possess authoritative weight. It is rooted in the primordial semantic field of śabda and sadda and includes divine speech, firmans, decrees, and norm giving discourses that give direction, boundaries, and aims to human life. In the TCT framework, Sabda is treated as the highest authoritative source of norm and telos.
+  Sabda (Revelatory Word, the authoritative source of norm and telos) is the **highest normative authority** that establishes binding norm and telos within an order of life. Canonically, Sabda is grounded at once in (1) **revelatory communication** as the originating source of normative authority and the establisher of telos, and (2) a **corpus of foundational principles** as the canonical form that gathers, codifies, and institutionalises revelatory content so that it is recognised as the final and binding reference. Sabda therefore sets direction, boundary, and ends, and functions as the apex criterion by which normative legitimacy, eligibility of judgement, and life-orientation are measured. Within TCT, Sabda is not a mere class of persuasive utterances, cultural narratives, or transient decrees; it is the binding normative reference that constrains all downstream reasoning, experience-claims, inward disciplines, and institutional designs.
 
 - **Logic**  
-  Logic is the disciplined order of reasoning that structures concepts, propositions, implications, and inferences so that judgments can be tested, corrected, and held accountable across time, disciplines, and traditions.
+  Logic is the **formal and normative discipline of consequence**: it orders definitions, premises, implications, and inferences by explicit criteria of validity and consistency, so that judgments may be examined, corrected, and held answerable across time, disciplines, and traditions. Logic secures inferential order and rational justification; it distinguishes what follows from what merely persuades. Architectural constraint: Logic does not establish telos and does not generate binding life-norms; it operates **under the normative boundary of Sabda**, is coordinated by Akal in judgement, and is tested by its fruits in Akhlak.
 
 - **Qualia**  
-  Qualia designates the phenomenal and experiential dimension of human life, namely how truth claims, power, policies, and institutional designs are actually felt by subjects, communities, and ecosystems in their lived experience.
+  Qualia designates the **phenomenal and qualitative dimension of conscious experience**, the “what-it-is-like” character of lived apprehension known from the first-person point of view. In truth governance, Qualia matters because policy, power, and institutional design are not only describable as third-person structures but also undergone as lived realities that bear evaluative valence (e.g., safety, humiliation, recognition, estrangement). Qualia is not identical with, and cannot be substituted by, third-person description, modelling, or measurement, which may refer to experience without replacing how it is lived. Architectural constraint: Qualia is not a solitary judge of truth; its data must be disciplined by Logic, purified from distortion through Mistika, and kept within Sabda’s binding normative limits, with consequences exacted in Akhlak.
 
-- **Mystica**  
-  Mystica is the intensional spiritual dimension of the journey that is guided by conscious intention toward the peak of direct encounter with the highest or deepest reality. It names the path of inner discipline through which intentions, desires, and perceptions are purified before what is ultimately real.
+- **Mistika**  
+  Mistika is a **normative and transformative discipline of knowledge and practice** concerning the epistemic condition of intention, the clarity of consciousness, and the inner orientation of the subject. It names directed inward formation: the cultivation of inner integrity, the purification of motivation from hidden motives and selfish interests, and structured contemplative training, so that understanding does not collapse into negligence, projection, or self-justification. Architectural constraint: Mistika is not an automatic warrant of truth and not a license for undisciplined claims; its deliverances remain bounded by Sabda, must remain coherent under Logic, and must leave an answerable trace in Akhlak. Within TCT, the governance of **Intention–Trace Alignment** belongs here: *Intention–Trace Alignment, the degree of alignment between epistemic intention and epistemic-moral trace,* is treated as a condition of answerability rather than a private sentiment.
 
-These four languages of truth are woven together and ultimately tested on the surface of **Akhlak**. Akhlak is the relatively stable configuration of moral dispositions and governance practices that repeatedly give rise to trustworthy, just, honest, compassionate, and dignifying actions. Within the TCT, Akhlak functions as the observable surface of verification on which Sabda, Logic, Qualia, and Mystica leave their trace in history.
+These four languages of truth are coordinated within **Akal** as an integrative inner faculty and are held to proof on the surface of **Akhlak**.
 
-The semantic definitions stored in this repository, especially in the file `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.*`, are the binding canonical reference for all uses of TCT terminology in manuscripts, datasets, and AI systems.
+- **Akal (integrative inner faculty)**  
+  Akal is the integrative inner faculty that receives Sabda as a binding normative reference and conducts judgement by coordinating the discipline of Logic, the data of Qualia, and the inward order of Mistika, so that belief and decision are bound to truth that is answerable.
+
+- **Akhlak (Virtue Ethics / Character; long-horizon verification)**  
+  Akhlak is the long-horizon field of ethical verification, observable across time, in which attachment to truth is exacted through a trace: relatively stable configurations of character dispositions and patterned conduct that repeatedly yield justice, trustworthiness, honesty, compassion, and the dignifying treatment of persons. Within TCT, Akhlak functions as the verification surface on which Sabda, Logic, Qualia, and Mistika disclose their integrated success or failure in history and communal life. Akhlak does not make a claim true; it reveals whether life and practice are in fact bound to what is acknowledged as binding.
+
+The semantic definitions stored in this repository, especially in the file `semantic-defs/TCT_Canonical-Semantic-Definitions_ID-EN_v1.0.*`, are the **binding canonical reference** for all uses of TCT terminology in manuscripts, datasets, and AI systems. Any use that departs from these definitions must be declared explicitly as **external use** and carries no determinative force for interpreting, extending, correcting, or evaluating the canonical architecture of *The Cohesive Tetrad*.
 
 ---
 
